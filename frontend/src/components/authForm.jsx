@@ -14,10 +14,6 @@ const AuthForm = ({ type = "signin" }) => {
     e.preventDefault();
     setLoading(true);
 
-    // Placeholder logic: just log the data for now
-    console.log("Form submitted with data:", formData);
-    console.log("Form type:", isSignUp ? "Sign Up" : "Sign In");
-
     setTimeout(() => {
       setLoading(false);
       alert("Form submitted successfully!");

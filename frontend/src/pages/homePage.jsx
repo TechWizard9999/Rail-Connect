@@ -1,6 +1,5 @@
-// src/pages/homePage.jsx
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Import Link
+import { Link } from "react-router-dom";
 import { Train, ArrowRight, MapPin, Calendar, Clock } from "lucide-react";
 import Navbar from "../components/navbar";
 
@@ -99,7 +98,7 @@ function HomePage() {
               Join thousands of travelers who trust Rail Connect for their train bookings
             </p>
             <Link
-              to="/account/signup" // Use 'to' instead of 'href'
+              to="/account/signup" 
               className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 font-medium text-lg transition-colors"
             >
               Create Your Account
